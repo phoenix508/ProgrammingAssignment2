@@ -1,6 +1,8 @@
-## The combination of these two functions will be used to calculate the inverse of given matrixes. ## If the inverse has already been calculated then the second function will retrieve the inverse  ## from the cache
+## The combination of these two functions will be used to calculate the inverse of given matrixes 
+## If the inverse has already been calculated then the second function will retrieve the inverse  
+## from the cache
 
-## The first function creates a matrix which contains a function to cache its inverse
+## The first function creates a matrix which contains a function to cache its inverse by mimicing the mean example
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
